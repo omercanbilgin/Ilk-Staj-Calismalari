@@ -1,0 +1,79 @@
+.container1 {
+  display: flex;
+  background-color: maroon;
+}
+.container1 > div {
+  background-color: cornflowerblue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.container2 {
+  display: flex;
+  height: 200px;
+  background-color: maroon;
+}
+.container2 > div {
+  background-color: cornflowerblue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  background-color: cornflowerblue;
+}
+.container3 > div {
+  background-color: maroon;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.container4 {
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+.container4 > div {
+  background-color: maroon;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.container5 {
+  display: flex;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+}
+.container5 > div {
+  background-color: maroon;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: cornflowerblue;
+}
+.center > div {
+  background-color: maroon;
+  color: white;
+  width: 100px;
+  height: 100px;
+}

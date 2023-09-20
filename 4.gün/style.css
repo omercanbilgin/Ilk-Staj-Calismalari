@@ -1,0 +1,107 @@
+body {
+  background-color: palegoldenrod;
+}
+
+.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 30px;
+}
+
+.relative::after {
+  content: "";
+  height: 200px;
+  width: 3px;
+  background-color: red;
+  position: absolute;
+  right: -30px;
+}
+
+.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid black;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid black;
+  margin: 30px;
+}
+
+.container {
+  position: relative;
+}
+
+.box1 {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.box2 {
+  position: absolute;
+  z-index: 3;
+  background: grey;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.box3 {
+  position: absolute;
+  z-index: 2;
+  background: goldenrod;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+
+.box4 {
+  position: relative;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.box5 {
+  position: absolute;
+  background: lightgray;
+  height: 60px;
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.box6 {
+  position: absolute;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}
+
+.transform {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+#transform1 {
+  transform: rotate(-10deg);
+}

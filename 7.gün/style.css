@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, #b92b27, #1565c0);
+}
+.input1:enabled {
+  background-color: darkred;
+}
+.input1:disabled {
+  background-color: cadetblue;
+}
+.input2:optional {
+  background-color: burlywood;
+}
+.input2:required {
+  background-color: dimgrey;
+}
+.input3:read-only {
+  background-color: peru;
+}
+.input3:read-write {
+  background-color: silver;
+}
+p:read-only {
+  background-color: darkgreen;
+}
+.dart-board {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: repeating-radial-gradient(black 0 5px, white 5px 10px);
+}
+.ease {
+  width: 100px;
+  height: 100px;
+  background-color: darkkhaki;
+  transition: width 2s;
+  transition-timing-function: ease;
+}
+.ease:hover {
+  width: 300px;
+}

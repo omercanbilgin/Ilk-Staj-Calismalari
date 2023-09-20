@@ -1,0 +1,57 @@
+.grid1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: maroon;
+  padding: 10px;
+}
+.grid1 > div {
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid2 {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: maroon;
+  padding: 10px;
+}
+.grid-item {
+  background-color: cornflowerblue;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid3 {
+  display: grid;
+  height: 400px;
+  align-content: space-between;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: maroon;
+  padding: 10px;
+}
+.grid3 > div {
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: maroon;
+  padding: 10px;
+}
+.grid4 > div {
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item8 {
+  grid-area: 1 / 2 / 5 / 6;
+}

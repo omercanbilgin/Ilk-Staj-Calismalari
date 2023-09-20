@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Staj</title>
+  </head>
+  <body>
+    <select>
+      <option value="">Erkek</option>
+      <option value="">Kadın</option>
+    </select>
+    <hr />
+    <input type="file" class="file" required />
+    <hr />
+    <label class="upload-file">
+      <input type="file" multiple required />
+      <div class="upload-box">
+        <img
+          src="download_FILL0_wght400_GRAD0_opsz24.svg"
+          class="not-selected"
+          height="40"
+        />
+        <img
+          src="done_FILL0_wght400_GRAD0_opsz24.svg"
+          class="selected"
+          height="40"
+        />
+        <div
+          data-multiple-not-selected="Dosyalarınızı seçmek için tıklayın"
+          data-multiple-selected="Dosyalar başarıyla seçildi"
+          data-not-selected="Dosyanızı buraya sürükleyin ya da seçmek için tıklayın!"
+          data-selected="Dosyanız başarıyla seçildi"
+        ></div>
+      </div>
+    </label>
+
+    <p class="text">Bu yazı seçilemez.</p>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+  background-color: grey;
+}
+
+.list li:first-child {
+  background-color: darkred;
+}
+
+.list li:last-child {
+  background-color: lightblue;
+}
+
+div:first-of-type {
+  background-color: white;
+}
+
+.nth-child-list li:nth-child(2n) {
+  background-color: coral;
+}
+
+.nth-child-list div:nth-of-type(1) {
+  background-color: darkgreen;
+}
+
+.nth-child-list li:nth-last-child(3n) {
+  background-color: darkgoldenrod;
+}
+
+div:only-child {
+  background-color: yellowgreen;
+}
